@@ -1,0 +1,6 @@
+[info]
+title=TreeHelper for MediaWiki
+desc=TreeHelper for CudaTree, adds support for MediaWiki lexer
+type=cudatext-plugin
+subdir=cuda_tree_mediawiki
+homepage=https://github.com/CudaText-addons/cuda_tree_mediawiki
