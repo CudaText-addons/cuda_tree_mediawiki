@@ -14,9 +14,12 @@ def get_headers(filename, lines):
     Generates headers in format:
     line_index, header_level, header_text
     '''
+    res = []
     for i, s in enumerate(lines):
         if not s.strip():
             continue
         r = is_line_head(s)
         if r:
-            yield i, r, s.strip(' =')
+            res.append( ((0, i, 0, i+1), r, s.strip(' ='), -1) )
+
+    return res
