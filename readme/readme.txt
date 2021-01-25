@@ -1,4 +1,4 @@
 TreeHelper for MediaWiki lexer.
 
-Author: Alexey (CudaText)
+Author: Alexey Torgashin (CudaText)
 License: MIT
