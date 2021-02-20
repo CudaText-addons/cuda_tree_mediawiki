@@ -1,6 +1,9 @@
 
+2021.02.20
++ optimized
+
 2019.02.10
-- adapt to CudaText 1.75
+- adapted to CudaText 1.75
 
 2018.05.17
 * updated for last CudaTree
